@@ -22,7 +22,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     rm -rf /var/lib/apt/lists/*
 
 WORKDIR /usr/src/
-RUN git clone --recursive https://github.com/yihui-he/channel-pruning.git
+RUN git clone --recursive https://github.com/ddfabbro/channel-pruning.git
 
 ENV CAFFE_ROOT /usr/src/channel-pruning/caffe/
 WORKDIR $CAFFE_ROOT
