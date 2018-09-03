@@ -1,6 +1,6 @@
 from easydict import EasyDict as edict
 c=edict()
-gpu=1
+gpu=False
 dataset="imagenet" # cifar10
 caffe_vis = '0,1,2,3'
 tf_vis = '4,5,6,7'
