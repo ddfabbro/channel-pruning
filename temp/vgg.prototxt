@@ -9,6 +9,7 @@ layer {
     bicubic: true
     shuffle: true
     batch_size: 10
+    root_folder: "path/to/ilsvrc12/"
     source: "path/to/ilsvrc12/sourceval.txt"
   }
   transform_param {
@@ -33,6 +34,7 @@ layer {
     bicubic: true
     shuffle: true
     batch_size: 32
+    root_folder: "path/to/ilsvrc12/"
     source: "path/to/ilsvrc12/sourcetrain.txt"
   }
   transform_param {
@@ -407,3 +409,4 @@ layer {
     top_k: 5
   }
 }
+
